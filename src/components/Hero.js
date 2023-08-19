@@ -12,6 +12,7 @@ export default function Hero() {
   return (
     <div className="heroMainContainer">
       <div className="navBar">
+        <h1>KC</h1>
         <ul>
           <li>
             <a href="#">About</a>

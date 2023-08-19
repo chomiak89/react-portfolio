@@ -12,12 +12,15 @@
   width: 100vw;
   position: absolute;
   top: 0;
+  color: #fff;
+}
+.navBar h1 {
+  float: left;
 }
 .navBar ul {
   width: 250px;
   float: right;
   text-transform: uppercase;
-  color: #fff;
 }
 .navBar li {
   list-style-type: none;
@@ -29,7 +32,7 @@
   color: #fff;
 }
 .navBar li a:hover {
-  color: pink;
+  color: pink; /*❗️❗️❗️❗️change the hover color❗️❗️❗️❗️*/
 }
 
 /* parallax container */
