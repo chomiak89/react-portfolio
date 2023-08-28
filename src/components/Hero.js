@@ -6,7 +6,7 @@ import "../stylesheets/hero.css";
 import circle from "../images/hero/circle.png";
 import gradient from "../images/hero/gradient.png";
 import lines from "../images/hero/lines.png";
-import palm from "../images/hero/lines.png";
+import palm from "../images/hero/palm.png";
 
 export default function Hero() {
   return (
@@ -29,6 +29,8 @@ export default function Hero() {
         <ParallaxBanner className="heroPB">
           <ParallaxBannerLayer image={gradient}></ParallaxBannerLayer>
           <ParallaxBannerLayer image={lines}></ParallaxBannerLayer>
+          <ParallaxBannerLayer image={palm}></ParallaxBannerLayer>
+          <ParallaxBannerLayer image={circle}></ParallaxBannerLayer>
         </ParallaxBanner>
       </div>
     </div>
