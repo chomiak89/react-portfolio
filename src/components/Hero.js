@@ -28,9 +28,16 @@ export default function Hero() {
       <div className="heroParallaxContainer">
         <ParallaxBanner className="heroPB">
           <ParallaxBannerLayer image={gradient}></ParallaxBannerLayer>
-          <ParallaxBannerLayer image={lines}></ParallaxBannerLayer>
+          <ParallaxBannerLayer
+            image={lines}
+            translateY={[0, 25]}
+            scale={[0.4, 0.8, "easeOutCubic"]}
+          ></ParallaxBannerLayer>
           <ParallaxBannerLayer image={palm}></ParallaxBannerLayer>
           <ParallaxBannerLayer image={circle}></ParallaxBannerLayer>
+          <ParallaxBannerLayer className="heroPBtextLayer">
+            <h1>Kamil Chomiak</h1>
+          </ParallaxBannerLayer>
         </ParallaxBanner>
       </div>
     </div>
