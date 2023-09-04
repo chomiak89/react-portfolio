@@ -1,0 +1,44 @@
+/* main DIV container */
+.aboutMainContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+/* parallax container */
+.aboutParallaxContainer {
+  height: 100%;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Parallax Banner  */
+.aboutPB {
+  height: 100%;
+}
+
+.aboutTransitionPBL {
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: top !important;
+}
+
+/* 🖥️ Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+/* 🖥️ Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+/* 🖥️ Large devices (laptops/desktops, 992px and up)  */
+@media only screen and (min-width: 992px) {
+}
+/* 🖥️ Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* change widht of main container on big screens and center it */
+  .aboutMainContainer {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}

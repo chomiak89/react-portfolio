@@ -2,12 +2,14 @@ import "./App.css";
 
 //COMPONENT IMPORTS
 import Hero from "./components/Hero";
+import About from "./components/About";
 
 function App() {
   return (
-    <>
-      <Hero></Hero>;<Hero></Hero>;
-    </>
+    <div>
+      <Hero></Hero>
+      <About></About>
+    </div>
   );
 }
 
