@@ -49,7 +49,7 @@
 .heroPB {
   height: 100%;
 }
-
+/* hero text parallax container  */
 .heroPBtextLayer {
   position: relative;
 }
@@ -65,20 +65,36 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  /* hero container */
   .heroParallaxContainer {
     height: 300px;
     width: 300px;
   }
+  /* hero text position and size  */
+  .heroPBtextLayer h1 {
+    font-size: 2rem;
+    top: 160px;
+    left: 100px;
+  }
 }
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* 🖥️ Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 }
-/* Medium devices (landscape tablets, 768px and up) */
+/* 🖥️ Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 }
-/* Large devices (laptops/desktops, 992px and up)  */
+/* 🖥️ Large devices (laptops/desktops, 992px and up)  */
 @media only screen and (min-width: 992px) {
 }
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* 🖥️ Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  /* change widht of main container on big screens and center it */
+  .heroMainContainer {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  /* change width of navbar of big screens */
+  .navBar {
+    width: 1200px;
+  }
 }
