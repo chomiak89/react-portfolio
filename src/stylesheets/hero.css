@@ -14,16 +14,26 @@
 
 .navBar {
   width: 100vw;
+  height: 150px;
   position: absolute;
   top: 0;
   display: flex;
-  align-items: center;
+  align-items: top;
   justify-content: space-around;
+  background-image: url(../images/hero/navline.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000;
+}
+
+.navBar h1 {
+  margin-top: 15px;
 }
 
 .navBar ul {
   width: 250px;
   text-transform: uppercase;
+  padding-top: 10px;
 }
 .navBar li {
   list-style-type: none;
@@ -32,7 +42,7 @@
 }
 .navBar li a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 .navBar li a:hover {
   color: pink; /*❗️❗️❗️❗️change the hover color❗️❗️❗️❗️*/
