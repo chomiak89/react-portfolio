@@ -8,6 +8,8 @@ import gradient from "../images/hero/gradient.png";
 import lines from "../images/hero/lines.png";
 import palm from "../images/hero/palm.png";
 
+import triangle from "../images/hero/triangle.png";
+
 export default function Hero() {
   return (
     <div className="heroMainContainer">
@@ -35,6 +37,7 @@ export default function Hero() {
           ></ParallaxBannerLayer>
           <ParallaxBannerLayer image={palm}></ParallaxBannerLayer>
           <ParallaxBannerLayer image={circle}></ParallaxBannerLayer>
+          <ParallaxBannerLayer image={triangle}></ParallaxBannerLayer>
           <ParallaxBannerLayer className="heroPBtextLayer">
             <h1>Kamil Chomiak</h1>
           </ParallaxBannerLayer>
