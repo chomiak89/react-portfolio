@@ -1,13 +1,19 @@
-/* main DIV container */
+/* ℹ️ main DIV container */
 .aboutMainContainer {
   height: 100vh;
   position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
   font-family: "Montserrat", sans-serif;
   color: #fff;
 }
 
+.about-header-container {
+  width: 100%;
+}
+
+/* ℹ️ topline divider containing main about heading */
 .topline {
   width: 100%;
   height: 100px;
@@ -15,8 +21,13 @@
   top: 0;
   background-color: #000;
 }
-
-.test {
+.topline-text {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-family: "Comfortaa", cursive;
+}
+.corner-divider {
   width: 100px;
   height: 100px;
   position: absolute;
@@ -26,20 +37,48 @@
   clip-path: polygon(51% 49%, 100% 0%, 100% 100%, 0% 100%);
 }
 
-/* parallax container */
+/* ℹ️ subheading  */
+.about-subheader {
+  color: #000;
+  width: 100%;
+  position: absolute;
+  top: 80px;
+}
+.about-subheader-text {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-family: "Comfortaa", cursive;
+}
+
+/* ℹ️ about main body  */
+.about-body {
+  color: #000;
+  width: 100%;
+  position: absolute;
+  top: 200px;
+}
+.about-body-text {
+  width: 1200px;
+  margin: 0 auto;
+  font-family: "Comfortaa", cursive;
+}
+
+/* ℹ️ parallax container */
 .aboutParallaxContainer {
   height: 100%;
   width: 1200px;
   margin: 0 auto;
+  border-left: 1px solid #000;
+  padding-left: 10px;
 }
 
-/* Parallax Banner  */
+/* ℹ️ Parallax Banner  */
 .aboutPB {
   height: 100%;
   position: relative;
 }
 
-.aboutTransitionPBL,
 .aboutDevTextPBL,
 .aboutLaptopPBL {
   background-size: contain !important;
@@ -47,52 +86,49 @@
   background-position: top !important;
 }
 
-.aboutSeTextPBL {
-  height: 60px;
-  font-size: 1.5rem;
-  position: relative;
-  /* left: 3% !important; */
-}
-
-.aboutBodyTextPBL {
-  position: relative;
-  top: 6% !important;
-  /* left: 2.8% !important; */
-  color: #000;
-  font-size: 1.5rem;
-}
-
 /* 🖥️ Small devices (portrait tablets and large phones, 300px and up) */
 @media only screen and (min-width: 300px) and (max-width: 600px) {
-  .aboutSeTextPBL {
-    font-size: 0.8rem;
-    top: 3% !important;
+  .aboutParallaxContainer {
+    width: 290px;
+  }
+
+  .topline-text,
+  .about-subheader-text {
+    width: 290px;
   }
 }
 /* 🖥️ Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
-  .aboutSeTextPBL {
-    font-size: 1.5rem;
-    top: 3% !important;
+  .aboutParallaxContainer {
+    width: 550px;
+  }
+
+  .topline-text,
+  .about-subheader-text {
+    width: 550px;
   }
 }
 /* 🖥️ Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-  .aboutSeTextPBL {
-    top: 5% !important;
+  .aboutParallaxContainer {
+    width: 700px;
+  }
+
+  .topline-text,
+  .about-subheader-text {
+    width: 700px;
   }
 }
 /* 🖥️ Large devices (laptops/desktops, 992px and up)  */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .aboutSeTextPBL {
-    top: 8% !important;
+  .aboutParallaxContainer {
+    width: 900px;
+  }
+  .topline-text,
+  .about-subheader-text {
+    width: 900px;
   }
 }
 /* 🖥️ Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  /* change widht of main container on big screens and center it */
-  .aboutMainContainer {
-    /* width: 1200px;
-    margin: 0 auto; */
-  }
 }
