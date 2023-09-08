@@ -1,0 +1,25 @@
+/* ℹ️ main DIV container */
+.work-main-container {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+
+/* ℹ️ parallax main container div*/
+.work-parallax-container {
+  height: 100%;
+  width: 1200px;
+  margin: 0 auto;
+  border-left: 1px solid #fff;
+  padding-left: 10px;
+}
+
+/* ℹ️ parallax banner*/
+.work-pb-container {
+  height: 100%;
+}

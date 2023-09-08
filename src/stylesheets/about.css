@@ -1,6 +1,6 @@
 /* ℹ️ main DIV container */
 .aboutMainContainer {
-  height: 100vh;
+  height: 50vh;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -63,6 +63,9 @@
   margin: 0 auto;
   font-family: "Comfortaa", cursive;
 }
+.about-body-text p {
+  margin-left: 10px;
+}
 
 /* ℹ️ parallax container */
 .aboutParallaxContainer {
@@ -86,15 +89,31 @@
   background-position: top !important;
 }
 
+/* ℹ️ℹ️ ---------- Media Querys ---------- ℹ️ℹ️ */
+
 /* 🖥️ Small devices (portrait tablets and large phones, 300px and up) */
 @media only screen and (min-width: 300px) and (max-width: 600px) {
   .aboutParallaxContainer {
-    width: 290px;
+    width: 360px;
+  }
+
+  .topline-text {
+    padding-top: 50px;
+  }
+
+  .about-subheader-text {
+    padding-top: 15px;
   }
 
   .topline-text,
   .about-subheader-text {
-    width: 290px;
+    font-size: 0.7rem;
+  }
+
+  .topline-text,
+  .about-subheader-text,
+  .about-body-text {
+    width: 360px;
   }
 }
 /* 🖥️ Small devices (portrait tablets and large phones, 600px and up) */
@@ -103,8 +122,22 @@
     width: 550px;
   }
 
+  .topline-text {
+    padding-top: 35px;
+  }
+
+  .about-subheader-text {
+    padding-top: 10px;
+  }
+
   .topline-text,
   .about-subheader-text {
+    font-size: 1rem;
+  }
+
+  .topline-text,
+  .about-subheader-text,
+  .about-body-text {
     width: 550px;
   }
 }
@@ -114,8 +147,18 @@
     width: 700px;
   }
 
+  .topline-text {
+    padding-top: 25px;
+  }
+
   .topline-text,
   .about-subheader-text {
+    font-size: 1.2rem;
+  }
+
+  .topline-text,
+  .about-subheader-text,
+  .about-body-text {
     width: 700px;
   }
 }
@@ -125,7 +168,8 @@
     width: 900px;
   }
   .topline-text,
-  .about-subheader-text {
+  .about-subheader-text,
+  .about-body-text {
     width: 900px;
   }
 }
