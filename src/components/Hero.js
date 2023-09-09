@@ -13,7 +13,7 @@ import triangle from "../images/hero/triangle.png";
 export default function Hero() {
   return (
     <div className="heroMainContainer">
-      <div className="navBar">
+      <div className="nav-bar">
         <h1>KC</h1>
         <ul>
           <li>

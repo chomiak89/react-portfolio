@@ -11,11 +11,18 @@ export default function About() {
     <div className="aboutMainContainer">
       <div className="about-header-container">
         <div className="topline">
-          <div className="topline-text">
+          <div className="topline-text">{/* <h1>SOFTWARE ENGINEER</h1> */}</div>
+        </div>
+        <div className="corner-divider"></div>
+
+        {/* test */}
+        <div className="about-header">
+          <div className="about-header-text">
             <h1>SOFTWARE ENGINEER</h1>
           </div>
         </div>
-        <div className="corner-divider"></div>
+        {/* end test */}
+
         <div className="about-subheader">
           <div className="about-subheader-text">
             <h1>BASED IN SOUTH FLORIDA</h1>
@@ -23,13 +30,21 @@ export default function About() {
         </div>
         <div className="about-body">
           <div className="about-body-text">
-            <p>HTML - CSS - JS - REACT - JAVA - PYTHON</p>
-            <p>SQL - AWS - DOCKER - KUBERNETES - JENKINS</p>
-            <p>COBOL - JCL - DB2</p>
+            <p>
+              <span>HTML</span> CSS <span>JS</span> REACT <span>JAVA</span>{" "}
+              PYTHON
+            </p>
+            <p>
+              <span>SQL</span> AWS <span>DOCKER</span> KUBERNETES{" "}
+              <span>JENKINS</span>
+            </p>
+            <p>
+              <span>COBOL</span> JCL <span>DB2</span>
+            </p>
           </div>
         </div>
       </div>
-      <div className="aboutParallaxContainer">
+      <div className="about-parallax-container">
         <ParallaxBanner className="aboutPB">
           <ParallaxBannerLayer
             className="aboutDevTextPBL"
@@ -40,7 +55,11 @@ export default function About() {
           <ParallaxBannerLayer
             className="aboutLaptopPBL"
             image={laptop}
+            translateY={[15, -7]}
+            scale={[0.9, 0.9, "easeOutCubic"]}
+            shouldAlwaysCompleteAnimation="true"
           ></ParallaxBannerLayer>
+          <ParallaxBannerLayer className="left-line-divider"></ParallaxBannerLayer>
         </ParallaxBanner>
       </div>
     </div>

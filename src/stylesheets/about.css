@@ -27,6 +27,9 @@
   font-size: 1.5rem;
   font-family: "Comfortaa", cursive;
 }
+.topline-text h1 {
+  margin-left: 25px;
+}
 .corner-divider {
   width: 100px;
   height: 100px;
@@ -37,12 +40,30 @@
   clip-path: polygon(51% 49%, 100% 0%, 100% 100%, 0% 100%);
 }
 
+/* header test  */
+.about-header {
+  color: #000;
+  width: 100%;
+  position: absolute;
+  top: 100px;
+}
+.about-header-text {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-family: "Comfortaa", cursive;
+}
+.about-header-text h1 {
+  margin-left: 20px;
+}
+
 /* ℹ️ subheading  */
 .about-subheader {
   color: #000;
   width: 100%;
   position: absolute;
-  top: 80px;
+  /* top: 80px; */
+  top: 180px;
 }
 .about-subheader-text {
   width: 1200px;
@@ -50,13 +71,16 @@
   font-size: 1.5rem;
   font-family: "Comfortaa", cursive;
 }
+.about-subheader-text h1 {
+  margin-left: 20px;
+}
 
 /* ℹ️ about main body  */
 .about-body {
   color: #000;
   width: 100%;
   position: absolute;
-  top: 200px;
+  top: 350px;
 }
 .about-body-text {
   width: 1200px;
@@ -64,16 +88,20 @@
   font-family: "Comfortaa", cursive;
 }
 .about-body-text p {
-  margin-left: 10px;
+  margin-left: 28px;
+  font-size: 1.2rem;
+}
+.about-body-text > p > span {
+  color: #dc3de9;
+  margin: 0 10px;
 }
 
 /* ℹ️ parallax container */
-.aboutParallaxContainer {
+.about-parallax-container {
   height: 100%;
-  width: 1200px;
+  width: 1400px;
   margin: 0 auto;
-  border-left: 1px solid #000;
-  padding-left: 10px;
+  /* border-left: 1px solid #000; */
 }
 
 /* ℹ️ Parallax Banner  */
@@ -87,6 +115,13 @@
   background-size: contain !important;
   background-repeat: no-repeat !important;
   background-position: top !important;
+}
+
+.left-line-divider {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  border-left: 1px solid #000;
 }
 
 /* ℹ️ℹ️ ---------- Media Querys ---------- ℹ️ℹ️ */

@@ -14,7 +14,7 @@
 
 /* navigation bar */
 
-.navBar {
+.nav-bar {
   width: 100vw;
   height: 70px;
   position: absolute;
@@ -22,29 +22,29 @@
   display: flex;
   align-items: top;
   justify-content: space-around;
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
+  color: #dc3de9;
 }
 
-.navBar h1 {
+.nav-bar h1 {
   margin-top: 15px;
 }
 
-.navBar ul {
+.nav-bar ul {
   width: 250px;
   text-transform: uppercase;
   padding-top: 10px;
 }
-.navBar li {
+.nav-bar li {
   list-style-type: none;
   display: inline;
   margin: 0 10px;
 }
-.navBar li a {
+.nav-bar li a {
   text-decoration: none;
-  color: #000;
+  color: #dc3de9;
 }
-.navBar li a:hover {
+.nav-bar li a:hover {
   color: pink; /*❗️❗️❗️❗️change the hover color❗️❗️❗️❗️*/
 }
 
