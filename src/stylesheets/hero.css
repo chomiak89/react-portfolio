@@ -1,18 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Comfortaa:wght@300&family=Monoton&family=Montserrat:wght@100;200;400&family=Oxygen:wght@300&display=swap");
 
-/* main DIV container */
-.heroMainContainer {
+/* ℹ️ main DIV container */
+.hero-main-container {
   height: 100vh;
   display: flex;
   align-items: center;
   background-color: #000;
   font-family: "Montserrat", sans-serif;
   color: #fff;
-  /* background-image: url(../images/hero/sidelines.png);
-  background-size: cover; */
 }
 
-/* navigation bar */
+/* ℹ️ navigation bar */
 
 .nav-bar {
   width: 100vw;
@@ -48,18 +46,18 @@
   color: pink; /*❗️❗️❗️❗️change the hover color❗️❗️❗️❗️*/
 }
 
-/* parallax container */
+/* ℹ️ parallax container */
 .heroParallaxContainer {
-  height: 800px;
+  height: 70%;
   width: 800px;
   margin: 0 auto;
 }
 
-/* Parallax Banner  */
+/* ℹ️ Parallax Banner  */
 .heroPB {
   height: 100%;
 }
-/* hero text parallax container  */
+/* ℹ️ hero text parallax container  */
 .heroPBtextLayer {
   position: relative;
 }
@@ -73,7 +71,9 @@
   font-size: 5rem;
 }
 
-/* Extra small devices (phones, 600px and down) */
+/* ℹ️ℹ️ ---------- Media Querys ---------- ℹ️ℹ️ */
+
+/* 🖥️ Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   /* hero container */
   .heroParallaxContainer {

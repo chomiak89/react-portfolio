@@ -6,7 +6,7 @@
   flex-direction: column;
   align-items: center;
   font-family: "Montserrat", sans-serif;
-  color: #fff;
+  color: #000;
 }
 
 .about-header-container {
@@ -21,15 +21,7 @@
   top: 0;
   background-color: #000;
 }
-.topline-text {
-  width: 1200px;
-  margin: 0 auto;
-  font-size: 1.5rem;
-  font-family: "Comfortaa", cursive;
-}
-.topline-text h1 {
-  margin-left: 25px;
-}
+
 .corner-divider {
   width: 100px;
   height: 100px;
@@ -40,37 +32,41 @@
   clip-path: polygon(51% 49%, 100% 0%, 100% 100%, 0% 100%);
 }
 
-/* header test  */
-.about-header {
-  color: #000;
+/* ℹ️ about text container */
+
+.about-text-container {
   width: 100%;
-  position: absolute;
-  top: 100px;
-}
-.about-header-text {
-  width: 1200px;
-  margin: 0 auto;
-  font-size: 1.5rem;
+  height: 100%;
+  /* border: 4px solid blue; */
+  color: #000;
   font-family: "Comfortaa", cursive;
 }
-.about-header-text h1 {
-  margin-left: 20px;
+
+/* header test  */
+.about-header {
+  width: 100%;
+  position: absolute;
+  top: 150px;
+}
+.about-header-text {
+  font-size: 1.5rem;
+  width: 80%;
+  margin: 0 auto;
+  border-top: 1px solid #000;
 }
 
 /* ℹ️ subheading  */
 .about-subheader {
-  color: #000;
   width: 100%;
   position: absolute;
-  /* top: 80px; */
-  top: 180px;
+  top: 230px;
 }
 .about-subheader-text {
-  width: 1200px;
-  margin: 0 auto;
   font-size: 1.5rem;
-  font-family: "Comfortaa", cursive;
+  width: 80%;
+  margin: 0 auto;
 }
+.about-header-text h1,
 .about-subheader-text h1 {
   margin-left: 20px;
 }
@@ -83,12 +79,12 @@
   top: 350px;
 }
 .about-body-text {
-  width: 1200px;
+  width: 80%;
   margin: 0 auto;
   font-family: "Comfortaa", cursive;
 }
 .about-body-text p {
-  margin-left: 28px;
+  margin-left: 20px;
   font-size: 1.2rem;
 }
 .about-body-text > p > span {
@@ -99,40 +95,54 @@
 /* ℹ️ parallax container */
 .about-parallax-container {
   height: 100%;
-  width: 1400px;
-  margin: 0 auto;
-  /* border-left: 1px solid #000; */
+  width: 100%;
+  /* border: 2px solid greenyellow; */
 }
 
 /* ℹ️ Parallax Banner  */
-.aboutPB {
+.about-parallax-banner {
   height: 100%;
+  width: 100%;
+  max-width: 123rem;
+  margin: 0 auto;
   position: relative;
+  /* border: 2px solid violet; */
 }
 
-.aboutDevTextPBL,
-.aboutLaptopPBL {
+/* .about-dev-text-PBL,
+.about-laptop-PBL,
+.about-text-PBL {
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: top !important;
+} */
+
+.about-laptop-PBL,
+.about-text-PBL {
   background-size: contain !important;
   background-repeat: no-repeat !important;
   background-position: top !important;
 }
 
 .left-line-divider {
-  width: 1200px;
+  /* width: 1200px; */
+  width: 80%;
   height: 100%;
   margin: 0 auto;
   border-left: 1px solid #000;
+}
+
+.left-line-divider-deco {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: top !important;
 }
 
 /* ℹ️ℹ️ ---------- Media Querys ---------- ℹ️ℹ️ */
 
 /* 🖥️ Small devices (portrait tablets and large phones, 300px and up) */
 @media only screen and (min-width: 300px) and (max-width: 600px) {
-  .aboutParallaxContainer {
-    width: 360px;
-  }
-
-  .topline-text {
+  .about-header-text {
     padding-top: 50px;
   }
 
@@ -140,23 +150,13 @@
     padding-top: 15px;
   }
 
-  .topline-text,
+  .about-header-text,
   .about-subheader-text {
     font-size: 0.7rem;
-  }
-
-  .topline-text,
-  .about-subheader-text,
-  .about-body-text {
-    width: 360px;
   }
 }
 /* 🖥️ Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
-  .aboutParallaxContainer {
-    width: 550px;
-  }
-
   .topline-text {
     padding-top: 35px;
   }
@@ -165,49 +165,25 @@
     padding-top: 10px;
   }
 
-  .topline-text,
+  .about-header-text,
   .about-subheader-text {
     font-size: 1rem;
-  }
-
-  .topline-text,
-  .about-subheader-text,
-  .about-body-text {
-    width: 550px;
   }
 }
 /* 🖥️ Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-  .aboutParallaxContainer {
-    width: 700px;
-  }
-
-  .topline-text {
+  .about-header-text {
     padding-top: 25px;
   }
 
-  .topline-text,
+  .about-header-text,
   .about-subheader-text {
     font-size: 1.2rem;
-  }
-
-  .topline-text,
-  .about-subheader-text,
-  .about-body-text {
-    width: 700px;
   }
 }
 /* 🖥️ Large devices (laptops/desktops, 992px and up)  */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .aboutParallaxContainer {
-    width: 900px;
-  }
-  .topline-text,
-  .about-subheader-text,
-  .about-body-text {
-    width: 900px;
-  }
 }
 /* 🖥️ Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
 }
