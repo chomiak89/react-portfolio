@@ -13,12 +13,22 @@
 /* ℹ️ parallax main container div*/
 .work-parallax-container {
   height: 100%;
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
-  border-left: 1px solid #fff;
 }
 
 /* ℹ️ parallax banner*/
 .work-pb-container {
   height: 100%;
+  width: 100%;
+  max-width: 123rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.work-left-line-divider {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  border-left: 1px solid rgba(355, 355, 355, 0.4);
 }

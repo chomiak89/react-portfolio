@@ -12,6 +12,7 @@ export default function Work() {
           <ParallaxBannerLayer>
             <h1>test</h1>
           </ParallaxBannerLayer>
+          <ParallaxBannerLayer className="work-left-line-divider"></ParallaxBannerLayer>
         </ParallaxBanner>
       </div>
     </div>

@@ -60,7 +60,7 @@ export default function About() {
             shouldAlwaysCompleteAnimation="true"
           ></ParallaxBannerLayer>
 
-          <ParallaxBannerLayer className="left-line-divider"></ParallaxBannerLayer>
+          <ParallaxBannerLayer className="about-left-line-divider"></ParallaxBannerLayer>
           <ParallaxBannerLayer
             className="left-line-divider-deco"
             image={test}
