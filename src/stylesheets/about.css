@@ -1,6 +1,6 @@
 /* ℹ️ main DIV container */
 .aboutMainContainer {
-  height: 50vh;
+  height: 60vh;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -39,7 +39,7 @@
   height: 100%;
   /* border: 4px solid blue; */
   color: #000;
-  font-family: "Comfortaa", cursive;
+  font-family: "Archivo Black", sans-serif;
 }
 
 /* header test  */
@@ -118,7 +118,8 @@
 } */
 
 .about-laptop-PBL,
-.about-text-PBL {
+.about-text-PBL,
+.about-cloud-PBL {
   background-size: contain !important;
   background-repeat: no-repeat !important;
   background-position: top !important;

@@ -6,6 +6,7 @@ import "../stylesheets/about.css";
 import developerText from "../images/about/developer-text.png";
 import laptop from "../images/about/laptop.png";
 import test from "../images/about/test.png";
+import cloud from "../images/about/cloud.png";
 
 export default function About() {
   return (
@@ -52,11 +53,20 @@ export default function About() {
             translateY={[15, 45]}
             shouldAlwaysCompleteAnimation="true"
           ></ParallaxBannerLayer>
+
           <ParallaxBannerLayer
             className="about-laptop-PBL"
             image={laptop}
-            translateY={[15, -7]}
+            translateY={[15, -5]}
             scale={[0.9, 0.9, "easeOutCubic"]}
+            shouldAlwaysCompleteAnimation="true"
+          ></ParallaxBannerLayer>
+
+          <ParallaxBannerLayer
+            className="about-cloud-PBL"
+            image={cloud}
+            translateY={[20, -5]}
+            scale={[0.7, 1, "easeOutCubic"]}
             shouldAlwaysCompleteAnimation="true"
           ></ParallaxBannerLayer>
 
