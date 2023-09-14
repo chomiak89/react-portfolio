@@ -10,13 +10,29 @@ import cloud from "../images/about/cloud.png";
 
 export default function About() {
   return (
-    <div className="aboutMainContainer">
+    <div className="about-main-container">
       <div className="about-header-container">
         <div className="topline"></div>
         <div className="corner-divider"></div>
       </div>
       <div className="about-parallax-container">
         <ParallaxBanner className="about-parallax-banner">
+          <ParallaxBannerLayer
+            className="about-laptop-PBL"
+            image={laptop}
+            translateY={[20, 0]}
+            scale={[0.9, 0.9, "easeOutCubic"]}
+            shouldAlwaysCompleteAnimation="true"
+          ></ParallaxBannerLayer>
+
+          <ParallaxBannerLayer
+            className="about-cloud-PBL"
+            image={cloud}
+            translateY={[30, -5]}
+            scale={[0.7, 1, "easeOutCubic"]}
+            shouldAlwaysCompleteAnimation="true"
+          ></ParallaxBannerLayer>
+
           <div className="about-text-container">
             {/* test */}
             <div className="about-header">
@@ -33,16 +49,17 @@ export default function About() {
             </div>
             <div className="about-body">
               <div className="about-body-text">
-                <p>
-                  <span>HTML</span> CSS <span>JS</span> REACT <span>JAVA</span>{" "}
-                  PYTHON
+                <p className="about-body-text-p1">HTML CSS JS REACT</p>
+                <p className="about-body-text-p2">JAVA JUNIT PYTHON</p>
+                <p className="about-body-text-p3">
+                  <span>SQL</span> KUBERNETES <span>JENKINS</span> ANSIBLE
+                  TERRAFORM
                 </p>
-                <p>
-                  <span>SQL</span> AWS <span>DOCKER</span> KUBERNETES{" "}
-                  <span>JENKINS</span>
+                <p className="about-body-text-p4">
+                  <span>COBOL</span> JCL SAS <span>DB2</span>
                 </p>
-                <p>
-                  <span>COBOL</span> JCL <span>DB2</span>
+                <p className="about-body-text-p5">
+                  AWS LINUX GIT GITLAB DOCKER
                 </p>
               </div>
             </div>
@@ -54,27 +71,27 @@ export default function About() {
             shouldAlwaysCompleteAnimation="true"
           ></ParallaxBannerLayer>
 
-          <ParallaxBannerLayer
+          {/* <ParallaxBannerLayer
             className="about-laptop-PBL"
             image={laptop}
-            translateY={[15, -5]}
+            translateY={[20, 0]}
             scale={[0.9, 0.9, "easeOutCubic"]}
             shouldAlwaysCompleteAnimation="true"
-          ></ParallaxBannerLayer>
+          ></ParallaxBannerLayer> */}
 
-          <ParallaxBannerLayer
+          {/* <ParallaxBannerLayer
             className="about-cloud-PBL"
             image={cloud}
-            translateY={[20, -5]}
+            translateY={[30, -5]}
             scale={[0.7, 1, "easeOutCubic"]}
             shouldAlwaysCompleteAnimation="true"
-          ></ParallaxBannerLayer>
+          ></ParallaxBannerLayer> */}
 
           <ParallaxBannerLayer className="about-left-line-divider"></ParallaxBannerLayer>
-          <ParallaxBannerLayer
+          {/* <ParallaxBannerLayer
             className="left-line-divider-deco"
             image={test}
-          ></ParallaxBannerLayer>
+          ></ParallaxBannerLayer> */}
         </ParallaxBanner>
       </div>
     </div>

@@ -1,6 +1,6 @@
 /* ℹ️ main DIV container */
-.aboutMainContainer {
-  height: 60vh;
+.about-main-container {
+  height: 50vh;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -37,7 +37,6 @@
 .about-text-container {
   width: 100%;
   height: 100%;
-  /* border: 4px solid blue; */
   color: #000;
   font-family: "Archivo Black", sans-serif;
 }
@@ -49,7 +48,7 @@
   top: 150px;
 }
 .about-header-text {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   width: 80%;
   margin: 0 auto;
   border-top: 1px solid #000;
@@ -82,15 +81,41 @@
   width: 80%;
   margin: 0 auto;
   font-family: "Comfortaa", cursive;
+  font-weight: bold;
 }
 .about-body-text p {
   margin-left: 20px;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
 }
-.about-body-text > p > span {
+.about-body-text-p1 {
+  font-size: 1.2rem;
+  padding-left: 7%;
+  word-spacing: 10px;
+}
+.about-body-text-p2 {
+  font-size: 1.6rem;
+  padding-left: 13%;
+  word-spacing: 15px;
+}
+.about-body-text-p3 {
+  font-size: 1.2rem;
+  padding-left: 4%;
+  word-spacing: 20px;
+}
+.about-body-text-p4 {
+  font-size: 1.4rem;
+  padding-left: 8%;
+  word-spacing: 15px;
+}
+.about-body-text-p5 {
+  font-size: 1.2rem;
+  padding-left: 18%;
+  word-spacing: 15px;
+}
+/* .about-body-text > p > span {
   color: #dc3de9;
   margin: 0 10px;
-}
+} */
 
 /* ℹ️ parallax container */
 .about-parallax-container {
@@ -160,21 +185,96 @@
   .about-subheader-text {
     font-size: 1rem;
   }
+
+  .about-laptop-PBL,
+  .about-cloud-PBL {
+    display: none;
+  }
 }
 /* 🖥️ Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-  .about-header-text {
-    padding-top: 25px;
+  /* adjust the position of the subheader */
+  .about-subheader {
+    top: 200px;
   }
-
-  .about-header-text,
+  /* shrink the font size for the header and subheader    */
+  .about-header-text {
+    font-size: 1.3rem;
+  }
   .about-subheader-text {
-    font-size: 1.2rem;
+    font-size: 1rem;
+  }
+  /* hide the laptop and cloud images  */
+  .about-laptop-PBL,
+  .about-cloud-PBL {
+    display: none;
   }
 }
 /* 🖥️ Large devices (laptops/desktops, 992px and up)  */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* shrink the size of the font for the header and subheader */
+  .about-main-container {
+    height: 45vh;
+  }
+  .about-body {
+    top: 280px;
+  }
+  .about-header-text {
+    font-size: 0.9rem;
+  }
+  .about-subheader-text {
+    font-size: 0.7rem;
+  }
+  /* shift the subheader up a bit */
+  .about-subheader {
+    top: 190px;
+  }
+
+  /* .about-body-text-p1 {
+    font-size: 1.2rem;
+    padding-left: 7%;
+    word-spacing: 10px;
+  } */
+  .about-body-text-p2 {
+    font-size: 1.4rem;
+    /* padding-left: 13%; */
+    /* word-spacing: 15px; */
+  }
+  .about-body-text-p3 {
+    font-size: 0.85rem;
+    padding-left: 1%;
+    word-spacing: 10px;
+  }
+  .about-body-text-p4 {
+    /* font-size: 1.4rem; */
+    padding-left: 5%;
+    /* word-spacing: 15px; */
+  }
+  .about-body-text-p5 {
+    font-size: 1.1rem;
+    padding-left: 11%;
+    /* word-spacing: 15px; */
+  }
 }
 /* 🖥️ Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+@media only screen and (min-width: 1200px) and (max-width: 1800px) {
+  .about-body {
+    top: 300px;
+  }
+  /* shrink the size of the font for the header and subheader */
+  .about-header-text {
+    font-size: 1.15rem;
+  }
+  .about-subheader-text {
+    font-size: 0.9rem;
+  }
+  /* shift the subheader up a bit */
+  .about-subheader {
+    top: 200px;
+  }
+  /* adjust size and padding of 3rd paragraph */
+  .about-body-text-p3 {
+    font-size: 1rem;
+    padding-left: 2%;
+  }
 }
