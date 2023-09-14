@@ -1,0 +1,21 @@
+.footer-main-container {
+  position: relative;
+}
+
+.footer-clip-path {
+  clip-path: polygon(100% 100%, 100% 100%, 0% 100%, 0% 81%);
+  background-color: #fff;
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 0;
+  bottom: 59px;
+}
+
+.footer-image {
+  width: 600px;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  left: 300px;
+}

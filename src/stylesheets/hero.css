@@ -21,7 +21,7 @@
   align-items: top;
   justify-content: space-around;
   background-color: #000;
-  color: #dc3de9;
+  color: #fff;
 }
 
 .nav-bar h1 {
@@ -32,6 +32,9 @@
   width: 250px;
   text-transform: uppercase;
   padding-top: 10px;
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+  font-size: 1.05rem;
 }
 .nav-bar li {
   list-style-type: none;
@@ -40,15 +43,15 @@
 }
 .nav-bar li a {
   text-decoration: none;
-  color: #dc3de9;
+  color: #fff;
 }
 .nav-bar li a:hover {
-  color: pink; /*❗️❗️❗️❗️change the hover color❗️❗️❗️❗️*/
+  color: #dc3de9; /*❗️❗️❗️❗️change the hover color❗️❗️❗️❗️*/
 }
 
 /* ℹ️ parallax container */
 .heroParallaxContainer {
-  height: 70%;
+  height: 60%;
   width: 800px;
   margin: 0 auto;
 }
@@ -98,13 +101,4 @@
 }
 /* 🖥️ Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  /* change widht of main container on big screens and center it */
-  .heroMainContainer {
-    /* width: 1200px;
-    margin: 0 auto; */
-  }
-  /* change width of navbar of big screens */
-  .navBar {
-    /* width: 1200px; */
-  }
 }

@@ -11,7 +11,6 @@ export default function Work() {
       <div className="work-positioning-container">
         <div className="work-parallax-container">
           <ParallaxBanner className="work-pb-container">
-            <ParallaxBannerLayer>{/* <h1>test</h1> */}</ParallaxBannerLayer>
             <ParallaxBannerLayer className="work-left-line-divider"></ParallaxBannerLayer>
           </ParallaxBanner>
           <div className="projects-main-container">

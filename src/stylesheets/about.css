@@ -96,7 +96,6 @@
 .about-parallax-container {
   height: 100%;
   width: 100%;
-  /* border: 2px solid greenyellow; */
 }
 
 /* ℹ️ Parallax Banner  */
@@ -106,16 +105,7 @@
   max-width: 123rem;
   margin: 0 auto;
   position: relative;
-  /* border: 2px solid violet; */
 }
-
-/* .about-dev-text-PBL,
-.about-laptop-PBL,
-.about-text-PBL {
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
-  background-position: top !important;
-} */
 
 .about-laptop-PBL,
 .about-text-PBL,
