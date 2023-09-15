@@ -158,37 +158,88 @@
 
 /* 🖥️ Small devices (portrait tablets and large phones, 300px and up) */
 @media only screen and (min-width: 300px) and (max-width: 600px) {
+  .about-main-container {
+    height: 100vh;
+    max-height: 600px;
+    overflow-x: hidden;
+  }
+  .corner-divider {
+    right: -60px;
+  }
+  /* shrink the font size for the header and subheader    */
   .about-header-text {
-    padding-top: 50px;
+    font-size: 0.9rem;
   }
-
   .about-subheader-text {
-    padding-top: 15px;
+    font-size: 0.6rem;
   }
-
-  .about-header-text,
-  .about-subheader-text {
-    font-size: 0.7rem;
+  /* hide the laptop and cloud images  */
+  .about-laptop-PBL,
+  .about-cloud-PBL {
+    display: none;
+  }
+  /* shift and adjust the about paragraphs */
+  .about-body {
+    top: 320px;
+  }
+  .about-body-text-p1 {
+    font-size: 1rem;
+    /* padding-left: 13%; */
+  }
+  .about-body-text-p2 {
+    padding-left: 25%;
+  }
+  .about-body-text-p3 {
+    font-size: 0.8rem;
+    padding-left: 9%;
+  }
+  .about-body-text-p4 {
+    font-size: 0.8rem;
+    padding-left: 14%;
+  }
+  .about-body-text-p5 {
+    font-size: 0.58rem;
+    padding-left: 2%;
   }
 }
 /* 🖥️ Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
-  .topline-text {
-    padding-top: 35px;
+  /* adjust the position of the subheader  */
+  .about-subheader {
+    top: 190px;
   }
-
-  .about-subheader-text {
-    padding-top: 10px;
-  }
-
-  .about-header-text,
-  .about-subheader-text {
+  /* shrink the font size for the header and subheader    */
+  .about-header-text {
     font-size: 1rem;
   }
-
+  .about-subheader-text {
+    font-size: 0.7rem;
+  }
+  /* hide the laptop and cloud images  */
   .about-laptop-PBL,
   .about-cloud-PBL {
     display: none;
+  }
+  /* shift and adjust the about paragraphs */
+  .about-body {
+    top: 300px;
+  }
+  .about-body-text-p1 {
+    padding-left: 13%;
+  }
+  .about-body-text-p2 {
+    padding-left: 25%;
+  }
+  .about-body-text-p3 {
+    font-size: 0.8rem;
+    padding-left: 9%;
+  }
+  .about-body-text-p4 {
+    padding-left: 14%;
+  }
+  .about-body-text-p5 {
+    font-size: 1.15rem;
+    padding-left: 10%;
   }
 }
 /* 🖥️ Medium devices (landscape tablets, 768px and up) */
@@ -208,6 +259,26 @@
   .about-laptop-PBL,
   .about-cloud-PBL {
     display: none;
+  }
+  /* shift and adjust the about paragraphs */
+  .about-body {
+    top: 320px;
+  }
+  .about-body-text-p1 {
+    padding-left: 13%;
+  }
+  .about-body-text-p2 {
+    padding-left: 18%;
+  }
+  .about-body-text-p3 {
+    font-size: 1rem;
+    padding-left: 9%;
+  }
+  .about-body-text-p4 {
+    padding-left: 13%;
+  }
+  .about-body-text-p5 {
+    padding-left: 23%;
   }
 }
 /* 🖥️ Large devices (laptops/desktops, 992px and up)  */

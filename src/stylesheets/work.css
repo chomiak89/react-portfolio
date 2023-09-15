@@ -1,6 +1,8 @@
 /* ℹ️ main DIV container */
 .work-main-container {
   height: 70vh;
+  width: 100vw;
+  overflow-x: hidden;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -80,4 +82,29 @@
   background-image: url(../images/work/brewlist.png);
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+/* ℹ️ℹ️ ---------- Media Querys ---------- ℹ️ℹ️ */
+
+/* 🖥️ Small devices (portrait tablets and large phones, 300px and up) */
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  /* .projects-header {
+    width: 300px;
+  }
+  .projects-header h1 {
+    font-size: 1rem;
+    width: 300px;
+  } */
+}
+/* 🖥️ Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+}
+/* 🖥️ Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+}
+/* 🖥️ Large devices (laptops/desktops, 992px and up)  */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+/* 🖥️ Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1800px) {
 }

@@ -17,21 +17,21 @@ export default function About() {
       </div>
       <div className="about-parallax-container">
         <ParallaxBanner className="about-parallax-banner">
-          <ParallaxBannerLayer
+          {/* <ParallaxBannerLayer
             className="about-laptop-PBL"
             image={laptop}
             translateY={[20, 0]}
             scale={[0.9, 0.9, "easeOutCubic"]}
             shouldAlwaysCompleteAnimation="true"
-          ></ParallaxBannerLayer>
+          ></ParallaxBannerLayer> */}
 
-          <ParallaxBannerLayer
+          {/* <ParallaxBannerLayer
             className="about-cloud-PBL"
             image={cloud}
             translateY={[30, -5]}
             scale={[0.7, 1, "easeOutCubic"]}
             shouldAlwaysCompleteAnimation="true"
-          ></ParallaxBannerLayer>
+          ></ParallaxBannerLayer> */}
 
           <div className="about-text-container">
             {/* test */}
@@ -71,21 +71,21 @@ export default function About() {
             shouldAlwaysCompleteAnimation="true"
           ></ParallaxBannerLayer>
 
-          {/* <ParallaxBannerLayer
+          <ParallaxBannerLayer
             className="about-laptop-PBL"
             image={laptop}
             translateY={[20, 0]}
             scale={[0.9, 0.9, "easeOutCubic"]}
             shouldAlwaysCompleteAnimation="true"
-          ></ParallaxBannerLayer> */}
+          ></ParallaxBannerLayer>
 
-          {/* <ParallaxBannerLayer
+          <ParallaxBannerLayer
             className="about-cloud-PBL"
             image={cloud}
             translateY={[30, -5]}
             scale={[0.7, 1, "easeOutCubic"]}
             shouldAlwaysCompleteAnimation="true"
-          ></ParallaxBannerLayer> */}
+          ></ParallaxBannerLayer>
 
           <ParallaxBannerLayer className="about-left-line-divider"></ParallaxBannerLayer>
           {/* <ParallaxBannerLayer

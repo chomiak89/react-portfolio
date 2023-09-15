@@ -1,4 +1,7 @@
 .footer-main-container {
+  width: 100vw;
+  /* overflow-x: hidden; */
+  height: 80px;
   position: relative;
 }
 
@@ -9,13 +12,86 @@
   height: 300px;
   position: absolute;
   left: 0;
-  bottom: 59px;
+  bottom: 95px;
 }
 
+.footer-image-container {
+  width: 100%;
+  max-width: 123rem;
+  margin: 0 auto;
+  position: relative;
+}
 .footer-image {
-  width: 600px;
+  width: 500px;
   height: auto;
   position: absolute;
-  bottom: 0;
-  left: 300px;
+  bottom: -70px;
+  /* left: 250px; */
+}
+
+.footer-content-container {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-content-container ul {
+  padding: 0;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+.footer-content-container ul li {
+  display: inline;
+}
+.footer-content-container ul li span {
+  margin: 0 10px;
+}
+.footer-content-container p {
+  font-size: 0.8rem;
+}
+
+/* ℹ️ℹ️ ---------- Media Querys ---------- ℹ️ℹ️ */
+
+/* 🖥️ Small devices (portrait tablets and large phones, 300px and up) */
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .footer-clip-path {
+    bottom: 80px;
+    width: 150px;
+  }
+  .footer-image {
+    width: 200px;
+    left: 25%;
+    bottom: 10px;
+  }
+  .footer-content-container ul {
+    font-size: 1.2rem;
+  }
+}
+/* 🖥️ Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .footer-clip-path {
+    bottom: 85px;
+    width: 200px;
+  }
+  .footer-image {
+    width: 200px;
+  }
+}
+/* 🖥️ Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .footer-clip-path {
+    bottom: 80px;
+    width: 250px;
+  }
+  .footer-image {
+    width: 300px;
+  }
+}
+/* 🖥️ Large devices (laptops/desktops, 992px and up)  */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .footer-image {
+    width: 400px;
+  }
+}
+/* 🖥️ Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1800px) {
 }
