@@ -12,12 +12,18 @@ export default function Footer() {
         <img className="footer-image" src={test}></img>
       </div>
       <div className="footer-content-container">
-        <ul>
-          <li>LinkedIn</li>
+        <ul className="footer-links-list">
           <li>
-            <span>Instagram</span>
+            <a href="#">LinkedIn</a>
           </li>
-          <li>Email</li>
+          <li>
+            <a href="#">
+              <span>GITHUB</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">Email</a>
+          </li>
         </ul>
         <p>Copyright 2023 - Kamil Chomiak</p>
       </div>

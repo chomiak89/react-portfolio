@@ -17,13 +17,13 @@ export default function Hero() {
         <h1>KC</h1>
         <ul>
           <li>
-            <a href="#">About</a>
+            <a href="#">LINKEDIN</a>
           </li>
           <li>
-            <a href="#">Work</a>
+            <a href="#">GITHUB</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#">EMAIL</a>
           </li>
         </ul>
       </div>

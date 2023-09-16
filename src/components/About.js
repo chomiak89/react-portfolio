@@ -64,7 +64,7 @@ export default function About() {
             className="about-cloud-PBL"
             image={cloud}
             translateY={[30, -5]}
-            scale={[0.7, 1, "easeOutCubic"]}
+            scale={[0.7, 0.9, "easeOutCubic"]}
             shouldAlwaysCompleteAnimation="true"
           ></ParallaxBannerLayer>
 

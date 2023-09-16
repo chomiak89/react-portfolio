@@ -55,10 +55,19 @@
   display: inline;
 }
 .footer-content-container ul li span {
-  margin: 0 10px;
+  margin: 0 20px;
 }
 .footer-content-container p {
   font-size: 0.8rem;
+}
+
+.footer-links-list li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer-links-list li a:hover {
+  color: palevioletred;
 }
 
 /* ==================================== */
