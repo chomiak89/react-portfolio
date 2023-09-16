@@ -1,6 +1,6 @@
 /* ℹ️ main DIV container */
 .work-main-container {
-  height: 70vh;
+  height: 750px;
   width: 100vw;
   overflow-x: hidden;
   position: relative;
@@ -64,6 +64,7 @@
 .projects-container {
   width: 80%;
   /* height: 450px; */
+  /* height: 100%; */
   margin-top: -100px;
   /* background-color: rgba(355, 355, 355, 0.4); */
   display: flex;
@@ -88,23 +89,54 @@
 
 /* 🖥️ Small devices (portrait tablets and large phones, 300px and up) */
 @media only screen and (min-width: 300px) and (max-width: 600px) {
-  /* .projects-header {
-    width: 300px;
+  .work-main-container {
+    height: 1200px;
   }
-  .projects-header h1 {
-    font-size: 1rem;
-    width: 300px;
-  } */
+  .project {
+    width: 280px;
+    height: 330px;
+    margin-left: 20px;
+  }
+  .project-image {
+    height: 150px;
+  }
 }
 /* 🖥️ Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
+  .work-main-container {
+    height: 1400px;
+  }
+}
+/* 🖥️ custom to adjust projects text between 300 and 780 */
+@media only screen and (min-width: 300px) and (max-width: 780px) {
+  .projects-header h1 {
+    font-size: 2.8rem;
+  }
+  .projects-container {
+    margin-top: -42px;
+  }
 }
 /* 🖥️ Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+  .work-main-container {
+    height: 1400px;
+  }
+}
+/* 🖥️ custom to set height of main between 875 and 992*/
+@media only screen and (min-width: 875px) and (max-width: 992px) {
+  .work-main-container {
+    height: 1000px;
+  }
 }
 /* 🖥️ Large devices (laptops/desktops, 992px and up)  */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .work-main-container {
+    height: 1000px;
+  }
 }
 /* 🖥️ Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) and (max-width: 1800px) {
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+  .work-main-container {
+    height: 1000px;
+  }
 }

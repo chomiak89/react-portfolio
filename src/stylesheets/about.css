@@ -1,6 +1,6 @@
 /* ℹ️ main DIV container */
 .about-main-container {
-  height: 50vh;
+  height: 650px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -159,8 +159,7 @@
 /* 🖥️ Small devices (portrait tablets and large phones, 300px and up) */
 @media only screen and (min-width: 300px) and (max-width: 600px) {
   .about-main-container {
-    height: 100vh;
-    max-height: 600px;
+    height: 600px;
     overflow-x: hidden;
   }
   .corner-divider {
@@ -204,6 +203,9 @@
 }
 /* 🖥️ Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
+  .about-main-container {
+    height: 600px;
+  }
   /* adjust the position of the subheader  */
   .about-subheader {
     top: 190px;
@@ -244,6 +246,9 @@
 }
 /* 🖥️ Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+  .about-main-container {
+    height: 600px;
+  }
   /* adjust the position of the subheader */
   .about-subheader {
     top: 200px;
@@ -285,7 +290,7 @@
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* shrink the size of the font for the header and subheader */
   .about-main-container {
-    height: 45vh;
+    height: 600px;
   }
   .about-body {
     top: 280px;
@@ -329,6 +334,9 @@
 }
 /* 🖥️ Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) and (max-width: 1800px) {
+  .about-main-container {
+    height: 600px;
+  }
   .about-body {
     top: 300px;
   }

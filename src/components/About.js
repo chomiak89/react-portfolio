@@ -17,31 +17,12 @@ export default function About() {
       </div>
       <div className="about-parallax-container">
         <ParallaxBanner className="about-parallax-banner">
-          {/* <ParallaxBannerLayer
-            className="about-laptop-PBL"
-            image={laptop}
-            translateY={[20, 0]}
-            scale={[0.9, 0.9, "easeOutCubic"]}
-            shouldAlwaysCompleteAnimation="true"
-          ></ParallaxBannerLayer> */}
-
-          {/* <ParallaxBannerLayer
-            className="about-cloud-PBL"
-            image={cloud}
-            translateY={[30, -5]}
-            scale={[0.7, 1, "easeOutCubic"]}
-            shouldAlwaysCompleteAnimation="true"
-          ></ParallaxBannerLayer> */}
-
           <div className="about-text-container">
-            {/* test */}
             <div className="about-header">
               <div className="about-header-text">
                 <h1>SOFTWARE ENGINEER</h1>
               </div>
             </div>
-            {/* end test */}
-
             <div className="about-subheader">
               <div className="about-subheader-text">
                 <h1>BASED IN SOUTH FLORIDA</h1>
@@ -74,7 +55,7 @@ export default function About() {
           <ParallaxBannerLayer
             className="about-laptop-PBL"
             image={laptop}
-            translateY={[20, 0]}
+            translateY={[20, 10]}
             scale={[0.9, 0.9, "easeOutCubic"]}
             shouldAlwaysCompleteAnimation="true"
           ></ParallaxBannerLayer>
