@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caveat:wght@700&family=Comfortaa:wght@300&family=Monoton&family=Montserrat:wght@100;200;400&family=Oxygen:wght@300&display=swap");
 
+/* ==================================== */
 /* ℹ️ main DIV container */
+/* ==================================== */
 .hero-main-container {
   height: 100vh;
   display: flex;
@@ -10,7 +12,9 @@
   color: #fff;
 }
 
+/* ==================================== */
 /* ℹ️ navigation bar */
+/* ==================================== */
 
 .nav-bar {
   width: 100vw;
@@ -50,18 +54,24 @@
   color: #dc3de9; /*❗️❗️❗️❗️change the hover color❗️❗️❗️❗️*/
 }
 
+/* ==================================== */
 /* ℹ️ parallax container */
+/* ==================================== */
 .heroParallaxContainer {
   height: 60%;
   width: 800px;
   margin: 0 auto;
 }
 
+/* ==================================== */
 /* ℹ️ Parallax Banner  */
+/* ==================================== */
 .heroPB {
   height: 100%;
 }
+/* ==================================== */
 /* ℹ️ hero text parallax container  */
+/* ==================================== */
 .heroPBtextLayer {
   position: relative;
 }
@@ -75,7 +85,9 @@
   font-size: 5rem;
 }
 
+/* ==================================== */
 /* ℹ️ℹ️ ---------- Media Querys ---------- ℹ️ℹ️ */
+/* ==================================== */
 
 /* 🖥️ Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

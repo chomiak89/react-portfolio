@@ -19,15 +19,30 @@ export default function Work() {
             </div>
             <div className="projects-container">
               <div className="project">
-                <div className="project-image"></div>
+                <div className="project-image">
+                  <div className="project-image-overlay"></div>
+                  <div className="project-image-text fadeIn-left">
+                    <h3>view project</h3>
+                  </div>
+                </div>
                 <h1>Brew List</h1>
               </div>
               <div className="project">
-                <div className="project-image"></div>
+                <div className="project-image">
+                  <div className="project-image-overlay"></div>
+                  <div className="project-image-text fadeIn-left">
+                    <h3>view project</h3>
+                  </div>
+                </div>
                 <h1>PR1</h1>
               </div>
               <div className="project">
-                <div className="project-image"></div>
+                <div className="project-image">
+                  <div className="project-image-overlay"></div>
+                  <div className="project-image-text fadeIn-left">
+                    <h3>view project</h3>
+                  </div>
+                </div>
                 <h1>PR1</h1>
               </div>
             </div>

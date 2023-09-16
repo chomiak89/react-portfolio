@@ -1,3 +1,6 @@
+/* ==================================== */
+/* main container for the footer */
+/* ==================================== */
 .footer-main-container {
   width: 100vw;
   /* overflow-x: hidden; */
@@ -5,6 +8,9 @@
   position: relative;
 }
 
+/* ==================================== */
+/* footer angled clip path divider  */
+/* ==================================== */
 .footer-clip-path {
   clip-path: polygon(100% 100%, 100% 100%, 0% 100%, 0% 81%);
   background-color: #fff;
@@ -15,6 +21,9 @@
   bottom: 95px;
 }
 
+/* ==================================== */
+/* footer david image  */
+/* ==================================== */
 .footer-image-container {
   width: 100%;
   max-width: 123rem;
@@ -29,6 +38,9 @@
   /* left: 250px; */
 }
 
+/* ==================================== */
+/* footer copyright and links  */
+/* ==================================== */
 .footer-content-container {
   width: 300px;
   margin: 0 auto;
@@ -49,7 +61,9 @@
   font-size: 0.8rem;
 }
 
+/* ==================================== */
 /* ℹ️ℹ️ ---------- Media Querys ---------- ℹ️ℹ️ */
+/* ==================================== */
 
 /* 🖥️ Small devices (portrait tablets and large phones, 300px and up) */
 @media only screen and (min-width: 300px) and (max-width: 600px) {
