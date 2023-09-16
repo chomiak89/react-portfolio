@@ -5,7 +5,6 @@ import "../stylesheets/about.css";
 //IMAGES
 import developerText from "../images/about/developer-text.png";
 import laptop from "../images/about/laptop.png";
-import test from "../images/about/test.png";
 import cloud from "../images/about/cloud.png";
 
 export default function About() {

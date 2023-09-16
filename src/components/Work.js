@@ -3,7 +3,6 @@ import { ParallaxBanner, ParallaxBannerLayer } from "react-scroll-parallax";
 import "../stylesheets/work.css";
 
 //IMAGES
-import brewlist from "../images/work/brewlist.png";
 
 export default function Work() {
   return (
