@@ -89,6 +89,16 @@
 /* ℹ️ℹ️ ---------- Media Querys ---------- ℹ️ℹ️ */
 /* ==================================== */
 
+/* 🖥️ Small devices (portrait tablets and large phones, 300px and up) */
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .nav-bar ul {
+    padding-left: 0;
+    font-size: 1rem;
+  }
+  .nav-bar li {
+    margin: 0 6px;
+  }
+}
 /* 🖥️ Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   /* hero container */
