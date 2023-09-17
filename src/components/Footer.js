@@ -14,15 +14,17 @@ export default function Footer() {
       <div className="footer-content-container">
         <ul className="footer-links-list">
           <li>
-            <a href="#">LinkedIn</a>
+            <a href="http://www.linkedin.com/in/kamil-chomiak" target="_blank">
+              LinkedIn
+            </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://github.com/chomiak89" target="_blank">
               <span>GITHUB</span>
             </a>
           </li>
           <li>
-            <a href="#">Email</a>
+            <a href="mailto: kamil.chomiak@outlook.com">Email</a>
           </li>
         </ul>
         <p>Copyright 2023 - Kamil Chomiak</p>

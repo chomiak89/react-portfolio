@@ -85,9 +85,17 @@
   height: 200px;
   position: relative;
   z-index: 1;
-  background-image: url(../images/work/brewlist.png);
   background-size: contain;
   background-repeat: no-repeat;
+}
+.project-1 {
+  background-image: url(../images/work/brewlist.png);
+}
+.project-2 {
+  background-image: url(../images/work/wip.png);
+}
+.project-3 {
+  background-image: url(../images/work/wip.png);
 }
 /* ==================================== */
 /* ℹ️ overlay for the project images */
