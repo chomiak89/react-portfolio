@@ -1,9 +1,15 @@
 /* ==================================== */
 /* ℹ️ navigation bar */
 /* ==================================== */
+.nav-bar-container {
+  width: 100%;
+  max-width: 123rem;
+  margin: 0 auto;
+}
 
 .nav-bar {
-  width: 100vw;
+  width: 100%;
+  max-width: 123rem;
   height: 70px;
   position: absolute;
   top: 0;
@@ -16,6 +22,8 @@
 
 .nav-bar h1 {
   margin-top: 15px;
+  position: absolute;
+  left: 20px;
 }
 
 .nav-bar ul {
@@ -44,7 +52,12 @@
 /* ℹ️ hamburger menu */
 /* ==================================== */
 .nav-hamburger {
-  display: none;
+  /* display: fixed; */
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  z-index: 10;
 }
 
 /* ==================================== */
@@ -53,10 +66,10 @@
 
 /* 🖥️ Small devices (portrait tablets and large phones, 300px and up) */
 @media only screen and (min-width: 300px) and (max-width: 600px) {
-  .nav-bar h1 {
+  /* .nav-bar h1 {
     position: absolute;
     left: 20px;
-  }
+  } */
   .nav-bar ul {
     padding-left: 0;
     font-size: 1rem;
@@ -64,15 +77,6 @@
   }
   .nav-bar li {
     margin: 0 6px;
-  }
-
-  .nav-hamburger {
-    /* display: fixed; */
-    display: block;
-    position: absolute;
-    top: 20px;
-    right: 15px;
-    z-index: 10;
   }
 }
 /* 🖥️ Extra small devices (phones, 600px and down) */
