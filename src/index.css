@@ -1,8 +1,4 @@
-p,
-h1,
-div {
-  /* overflow-x: hidden; */
-}
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caveat:wght@700&family=Comfortaa:wght@300&family=Monoton&family=Montserrat:wght@100;200;400&family=Oxygen:wght@300&display=swap");
 
 body {
   margin: 0;
