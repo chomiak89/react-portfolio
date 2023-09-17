@@ -2,6 +2,9 @@ import React from "react";
 import { ParallaxBanner, ParallaxBannerLayer } from "react-scroll-parallax";
 import "../stylesheets/hero.css";
 
+//COMPONENTS
+import Nav from "./Nav";
+
 //IMAGES
 import circle from "../images/hero/circle.png";
 import gradient from "../images/hero/gradient.png";
@@ -13,20 +16,7 @@ import triangle from "../images/hero/triangle.png";
 export default function Hero() {
   return (
     <div className="hero-main-container">
-      <div className="nav-bar">
-        <h1>KC</h1>
-        <ul>
-          <li>
-            <a href="#">LINKEDIN</a>
-          </li>
-          <li>
-            <a href="#">GITHUB</a>
-          </li>
-          <li>
-            <a href="#">EMAIL</a>
-          </li>
-        </ul>
-      </div>
+      <Nav></Nav>
       <div className="heroParallaxContainer">
         <ParallaxBanner className="heroPB">
           <ParallaxBannerLayer image={gradient}></ParallaxBannerLayer>

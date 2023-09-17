@@ -1,0 +1,92 @@
+/* ==================================== */
+/* ℹ️ navigation bar */
+/* ==================================== */
+
+.nav-bar {
+  width: 100vw;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: top;
+  justify-content: space-around;
+  background-color: #000;
+  color: #fff;
+}
+
+.nav-bar h1 {
+  margin-top: 15px;
+}
+
+.nav-bar ul {
+  width: 250px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+  font-size: 1.05rem;
+  overflow-x: hidden;
+}
+.nav-bar li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 10px;
+}
+.nav-bar li a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-bar li a:hover {
+  color: #dc3de9; /*❗️❗️❗️❗️change the hover color❗️❗️❗️❗️*/
+}
+
+/* ==================================== */
+/* ℹ️ hamburger menu */
+/* ==================================== */
+.nav-hamburger {
+  display: none;
+}
+
+/* ==================================== */
+/* ℹ️ℹ️ ---------- Media Querys ---------- ℹ️ℹ️ */
+/* ==================================== */
+
+/* 🖥️ Small devices (portrait tablets and large phones, 300px and up) */
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .nav-bar h1 {
+    position: absolute;
+    left: 20px;
+  }
+  .nav-bar ul {
+    padding-left: 0;
+    font-size: 1rem;
+    text-align: end;
+  }
+  .nav-bar li {
+    margin: 0 6px;
+  }
+
+  .nav-hamburger {
+    /* display: fixed; */
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    z-index: 10;
+  }
+}
+/* 🖥️ Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+/* 🖥️ Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+/* 🖥️ Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+/* 🖥️ Large devices (laptops/desktops, 992px and up)  */
+@media only screen and (min-width: 992px) {
+}
+/* 🖥️ Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
