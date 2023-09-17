@@ -78,14 +78,6 @@
   .nav-bar li {
     margin: 0 6px;
   }
-
-  /* .nav-hamburger {
-    display: block;
-    position: absolute;
-    top: 20px;
-    right: 15px;
-    z-index: 10;
-  } */
 }
 /* 🖥️ Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
