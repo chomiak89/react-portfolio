@@ -21,7 +21,9 @@ export default function Work() {
                 <div className="project-image project-1">
                   <div className="project-image-overlay"></div>
                   <div className="project-image-text fadeIn-left">
-                    <h3>view project</h3>
+                    <h3>
+                      <a href="">view project</a>
+                    </h3>
                   </div>
                 </div>
                 <h1>Brew List</h1>
