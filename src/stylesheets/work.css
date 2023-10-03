@@ -149,6 +149,10 @@
 .fadeIn-left {
   left: 20%;
 }
+.project-image-text h3 a {
+  text-decoration: none;
+  color: #fff;
+}
 
 /* ℹ️ℹ️ ---------- Media Querys ---------- ℹ️ℹ️ */
 
