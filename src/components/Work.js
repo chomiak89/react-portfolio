@@ -22,7 +22,12 @@ export default function Work() {
                   <div className="project-image-overlay"></div>
                   <div className="project-image-text fadeIn-left">
                     <h3>
-                      <a href="">view project</a>
+                      <a
+                        href="https://deft-kataifi-43eda1.netlify.app/"
+                        target="_blank"
+                      >
+                        view project
+                      </a>
                     </h3>
                   </div>
                 </div>
