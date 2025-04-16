@@ -27,7 +27,7 @@ export default function Footer() {
             <a href="mailto: kamil.chomiak@outlook.com">Email</a>
           </li>
         </ul>
-        <p>Copyright 2025 - Kamil Chomiak</p>
+        <p>Copyright 2025 {"\u00A9"} Kamil Chomiak</p>
       </div>
     </div>
   );
