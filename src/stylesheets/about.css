@@ -9,6 +9,12 @@
   align-items: center;
   font-family: "Montserrat", sans-serif;
   color: #000;
+  background: linear-gradient(
+    0deg,
+    rgba(199, 254, 255, 1) 0%,
+    rgba(246, 245, 247, 1) 54%,
+    rgba(250, 232, 250, 1) 100%
+  );
 }
 
 .about-header-container {
@@ -31,7 +37,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #fff;
+  background-color: rgb(248, 236, 249);
   clip-path: polygon(51% 49%, 100% 0%, 100% 100%, 0% 100%);
 }
 
